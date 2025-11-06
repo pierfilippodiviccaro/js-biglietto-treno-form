@@ -29,26 +29,40 @@
         <div class="input-group">
           <input type="number" class="form-control" id="quanto" placeholder="inserisci i tuoi anni" value="17">
         </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-primary" id="button-submit">genera</button>
-          <button type="submit" class="btn btn-secondary" id="button-redo">annulla</button>
-        </div>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary" id="button-submit">genera</button>
+        <button type="submit" class="btn btn-secondary" id="button-redo">annulla</button>
+      </div>
     </form>
   </div>
-<div class="output"></div>
-  <div class="row g-3">
-  <div class="col-sm-7">
-    <input type="text" class="form-control" placeholder="City" aria-label="City">
+  <div class="output">
+    <h2>ecco qui il tuo BIGLIETTO</h2>
+    <div class="row g-3">
+      <div class="col-sm-3">
+        <label for="prezzo">costo biglietto</label>
+        <p id="costo-biglietto"></p>
+      </div>
+      <div class="col-sm-3">
+        <label for="carrozza">carrozza N.</label>
+        <p id="num-carrozza"></p>
+      </div>
+      <div class="col-sm-3">
+        <label for="codice">codice CP</label>
+       <p id="codice-CP"></p>
+      </div>
+      <div class="col-sm-3">
+        <label for="offerta">offerta</label>
+        <p><strong>offerta standard</strong></p>
+      </div>
+      <div class="col-sm-3">
+        <label for="sconto">sconto che spetta</label>
+        <p id="sconto"></p>
+      </div>
+    </div>
   </div>
-  <div class="col-sm">
-    <input type="text" class="form-control" placeholder="State" aria-label="State">
-  </div>
-  <div class="col-sm">
-    <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
-  </div>
-</div>
 
-    
+
   <script src="script.js"></script>
 </body>
 
